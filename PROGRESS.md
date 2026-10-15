@@ -1,6 +1,15 @@
 # Progress and resumption state
 
-Status: **Governance approved 2026-10-15; no technical implementation started.**
+Status: **Milestone 0 read-only feasibility audit authorized and in progress 2026-10-15; no technical implementation started.**
+
+## Active Milestone 0 checkpoint — 2026-10-15
+- Authorization: explicit owner approval in the initiating task; recorded as D-012.
+- Starting repository state: branch `main`, commit `a0ff7e30c12b363b606d893723707d5e158322c4`, clean working tree after cloning the owner-specified repository into the empty workspace.
+- Scope boundary: project-owned documentation and Git history only. BeamNG/game/mod content remains read-only; no modeling, JBeam/material/configuration/mechanical changes, deployment, release, dependency installation, or automatic game launch.
+- Planned evidence: installed tool/version/path status; BeamNG version, user folder and active mods path; exact vanilla Covet and candidate donor paths and identifiers; defensible static measurements; packaging/load-path analysis; bounded mass/handling calculations; AWD options/blockers; provenance; per-requirement verdicts; and a decision-ready proposed Milestone 1.
+- Evidence labels: verified local fact, static-derived result, estimate, hypothesis, unknown, and in-game status are kept distinct.
+- Estimated audit duration: 60–90 minutes, subject to local asset accessibility and archive size.
+- Current blockers: none yet; local BeamNG environment has not yet been searched.
 
 ## Confirmed
 - Repository: https://github.com/sczahra/beamng-covet-campette

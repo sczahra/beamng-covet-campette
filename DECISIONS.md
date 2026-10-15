@@ -15,5 +15,6 @@ Status: **Approved decisions recorded 2026-10-15.** Do not infer new approval fr
 | D-009 | Checkpoint frequently, commit each validated milestone | Approved |
 | D-010 | Deploy validated updated mod ZIPs automatically with rollback backup, never start BeamNG | Approved after path verification |
 | D-011 | Publish six governance documents to sczahra/beamng-covet-campette | Approved 2026-10-15 |
+| D-012 | Owner authorized Milestone 0: a read-only technical feasibility and provenance audit covering the local environment, vanilla Covet architecture, camper packaging, structural strategy, vanilla rear-suspension candidates, preliminary mass/handling, vanilla AWD feasibility, and a proposed production-intent Milestone 1. Writing is limited to project-owned research documentation and Git history. No vehicle implementation, game/mod-file changes, proprietary-content publication, third-party integration, deployment, release, or automatic BeamNG launch is authorized. | Approved 2026-10-15 by the owner's explicit Milestone 0 instruction in the task that initiated this audit; supersedes the earlier pending-authorization note in `DESIGN.md` for this audit only. Commit pending. |
 
 Future decisions must include date, request, approval/rejection, rationale, and relevant commit when available. Earlier proposals must not silently become requirements.
