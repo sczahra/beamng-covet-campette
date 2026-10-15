@@ -1,6 +1,16 @@
 # Progress and resumption state
 
-Status: **Milestone 0 read-only feasibility audit complete 2026-10-15; no technical implementation started.**
+Status: **Milestone 1 implementation specification finalized for approval 2026-10-15; no technical implementation started.**
+
+## Milestone 1 approval package — 2026-10-15
+
+- Starting state: branch `main`, commit `0cdbf39cd8a432a7e8c7d9c3fb0ea26e727e6d11`, clean, two local audit commits ahead of `origin/main`.
+- Authorization: planning only. No mesh, JBeam, material, configuration, game/mod file, ZIP, deployment or runtime action was authorized or performed.
+- Owner direction recorded as D-015: preserve the Covet cab/front/doors/dashboard/character; treat the Lansdale FWD beam as the preferred but conditional rear candidate; do not adopt an entire Lansdale chassis.
+- Final proposal: `milestone-1/implementation-specification.md` defines evidence-labeled package targets, structural architecture, FWD mechanical baseline, provenance-safe local build, deliverables, sequence, acceptance tests, risks and the exact next authorization.
+- Recommended construction defaults: `2.815 m` nominal wheelbase, `1.95 m` coach width, `4.80 m` overall length, `2.45 m` overall height, `0.60 m` walkthrough width, Lansdale-style beam/rear discs, Covet GTz-turbo-derived FWD baseline and `1900 kg` nominal engineering test point. All non-observed dimensions are explicitly estimates, not measurements.
+- Proprietary handling: public Git may contain project-authored source/scripts/docs; extracted or modified vanilla assets and complete derived ZIPs remain local/private unless BeamNG permission is documented.
+- Validation for this planning task: documentation consistency, repository privacy/proprietary-content scan and Git diff review. In-game status remains **NOT TESTED**.
 
 ## Completed Milestone 0 — 2026-10-15
 - Authorization: explicit owner approval in the initiating task; recorded as D-012.
@@ -24,12 +34,13 @@ Status: **Milestone 0 read-only feasibility audit complete 2026-10-15; no techni
 - Vehicle concept approved: Ibishu Covet front with an original Shasta-inspired canned-ham baby Class C, continuous walkthrough, overcab bunk, integrated swoopy single rear wheel openings, signature rear wings, reinforced rear suspension, FWD base and possible AWD upgrade.
 
 ## Not done
-- No BeamNG installation, tools, versions, mods folder, local assets or candidate JBeam donors inspected.
-- No geometry, JBeam, vehicle mod, ZIP, testing or deployments completed.
-- No dimensions, rear suspension donor, AWD design or payload capacity verified.
+- No geometry, JBeam, material, configuration, vehicle mod, ZIP, runtime testing or deployment has been created or performed.
+- No Campette mass, CG, axle capacity, suspension travel, thermal margin, handling result, payload or GVWR has been measured/approved.
+- The active mods directory is not runtime-confirmed; no owner-run BeamNG test session has occurred.
+- No permission to publish a modified vanilla Covet mesh has been verified.
 
 ## Next action / authorization gate
-Stop after Milestone 0. Request separate explicit owner approval for the proposed Milestone 1 scope in `milestone-0/proposed-milestone-1.md`, including the provenance route, dimensions/mass targets, Lansdale beam-axle decision, FWD powertrain baseline and owner-launched test permission. Do not modify vehicle files before that approval.
+Stop at the approval gate. Request the exact Milestone 1 authorization stated in `milestone-1/implementation-specification.md`. Do not modify vehicle files before that approval. The next approved task should begin production-intent construction, not another broad feasibility study.
 
 ## Milestone reporting format
 - Milestone, date, owner authorization:
